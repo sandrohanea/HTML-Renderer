@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>HtmlRendererDemoCommon</AssemblyName>
+    <RootNamespace>TheArtOfDev.HtmlRenderer.Demo.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\browser.png" />
+    <None Remove="Resources\chrome.png" />
+    <None Remove="Resources\code.png" />
+    <None Remove="Resources\comment16.gif" />
+    <None Remove="Resources\CustomFont.ttf" />
+    <None Remove="Resources\delete16.gif" />
+    <None Remove="Resources\delete32.gif" />
+    <None Remove="Resources\Event16.png" />
+    <None Remove="Resources\favorites32.png" />
+    <None Remove="Resources\font32.png" />
+    <None Remove="Resources\form.png" />
+    <None Remove="Resources\formula32.png" />
+    <None Remove="Resources\html32.png" />
+    <None Remove="Resources\image.png" />
+    <None Remove="Resources\image32.png" />
+    <None Remove="Resources\method16.gif" />
+    <None Remove="Resources\pdf.png" />
+    <None Remove="Resources\property16.gif" />
+    <None Remove="Resources\stopwatch.png" />
+    <None Remove="Resources\Tooltip.html" />
+    <None Remove="Resources\web_pallete.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\browser.png" />
+    <EmbeddedResource Include="Resources\chrome.png" />
+    <EmbeddedResource Include="Resources\code.png" />
+    <EmbeddedResource Include="Resources\comment16.gif" />
+    <EmbeddedResource Include="Resources\CustomFont.ttf" />
+    <EmbeddedResource Include="Resources\delete16.gif" />
+    <EmbeddedResource Include="Resources\delete32.gif" />
+    <EmbeddedResource Include="Resources\Event16.png" />
+    <EmbeddedResource Include="Resources\favorites32.png" />
+    <EmbeddedResource Include="Resources\font32.png" />
+    <EmbeddedResource Include="Resources\form.png" />
+    <EmbeddedResource Include="Resources\formula32.png" />
+    <EmbeddedResource Include="Resources\html32.png" />
+    <EmbeddedResource Include="Resources\image.png" />
+    <EmbeddedResource Include="Resources\image32.png" />
+    <EmbeddedResource Include="Resources\method16.gif" />
+    <EmbeddedResource Include="Resources\pdf.png" />
+    <EmbeddedResource Include="Resources\property16.gif" />
+    <EmbeddedResource Include="Resources\stopwatch.png" />
+    <EmbeddedResource Include="Resources\Tooltip.html" />
+    <EmbeddedResource Include="Resources\web_pallete.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\HtmlRenderer\HtmlRenderer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>TheArtOfDev.HtmlRenderer.Demo.WPF</RootNamespace>
+    <AssemblyName>HtmlRenderer.Demo.WPF</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="3.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\HtmlRenderer.WPF\HtmlRenderer.WPF.csproj" />
+    <ProjectReference Include="..\..\HtmlRenderer\HtmlRenderer.csproj" />
+    <ProjectReference Include="..\HtmlRenderer.Demo.Common\HtmlRenderer.Demo.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -108,3 +108,6 @@ Backup*/
 UpgradeLog*.XML
 
 *.DotSettings
+/Source/.vs/*
+/Source2/.vs
+/Source2/HtmlRenderer/.vs/HtmlRenderer
